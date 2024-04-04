@@ -15,7 +15,7 @@ pipeline {
             }
         }
 
-                stage('Maven Unit test') {
+    stage('Maven Unit test') {
             steps {
                 script {
                     mvnTest()
